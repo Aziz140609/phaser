@@ -67,7 +67,7 @@ var sceneMenu = new Phaser.Class({
                 scaleY: 10,});
                 
                 this.time.delayedCall(600, function(){
-                this.scene.start('scenemenu')},[], this);
+                this.scene.start('sceneplays')},[], this);
                 
                 btnPlay.setDepth(1);
                 this.tittleGame.setDepth(0);
